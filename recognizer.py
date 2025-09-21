@@ -11,5 +11,9 @@ class HaarFaceRecognizer:
 
     def detection_callback(result):
         print("Face detected:", result.object_class.decode(),
-            "x:", result.x, "y:", result.y, "w:", result.width, "h:", result.height)
+            "x:", result.x, 
+            "y:", result.y, 
+            "w:", result.width, 
+            "h:", result.height
+        )
 
